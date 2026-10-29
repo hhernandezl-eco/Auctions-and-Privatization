@@ -1,0 +1,90 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{microtype}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage[hidelinks]{hyperref}
+\setlist{itemsep=2pt}
+\newcommand{\rep}[1]{\par\smallskip\noindent\textbf{Response.} #1\par\bigskip}
+\newcommand{\com}[1]{\par\medskip\noindent\textit{#1}\par}
+
+\title{Response to the referee report\\[4pt]\large ``Privatising under dominance: bid preferences in telecommunications auctions with downstream competition''\\ Journal of Industry, Competition and Trade}
+\author{Hernando Hern\'andez Lasso}
+\date{}
+
+\begin{document}
+\maketitle
+\onehalfspacing
+
+I thank the referee for a careful and constructive report. All requested changes have been made. Section and table numbers below refer to the revised manuscript; the numbering in the report refers to the previous version. I summarise the changes first and then answer each comment.
+
+\section*{Summary of changes}
+\begin{itemize}
+\item The treatment of the 2021 working paper is reduced to a single footnote (Introduction); the stand-alone remark, the corrections in the text and the appendix comparison are removed.
+\item The informational-advantage benchmark (old Section~6) is moved to Section~8.3, ``Extension: an informational advantage'', so that the core of the paper is the market-dominance problem (Sections~4--5), calibrated in Sections~6--7.
+\item A microfoundation paragraph for the capacity-constrained Cournot stage is added (Section~4.1), together with the link to the Cowling--Waterson relation used in the calibration.
+\item A new Section~8.2 discusses more than one challenger and reports, with the calibrated model, the pairwise premia of the three-bidder case (Table~7). It is also acknowledged in Assumption~2 and in the limitations.
+\item The reserve-price anchor is justified in Section~6 and its sensitivity is reported with numbers.
+\item The sensitivity analysis now uses exactly the same protocol as the main experiment, so the baseline row of Table~5 coincides with Table~4.
+\item Post-2020 developments are summarised in a footnote in Section~3; the 2006 facts now rely on the issuer's press release in addition to press reports.
+\item The broken cross-reference is fixed; the manuscript is reformatted as a generic article class for submission.
+\end{itemize}
+
+\section*{Major comments}
+
+\com{2.1 Treatment of the earlier working paper.}
+\rep{Done as recommended. The Introduction now contains one footnote: ``This paper builds upon and substantially revises an earlier working paper in Spanish (Hern\'andez Lasso, 2021), correcting its empirical calibration and analytical derivations.'' The ``note on the earlier draft'' paragraph and Remark~1 were deleted. The mathematical property that the remark documented, namely that the preference raises revenue for every degree of asymmetry, is stated directly in Proposition~4(b) (``$\ldots>0$ for \emph{every} $\alpha<1$; it vanishes only as $\alpha\to1$''). The comparison with the 2021 draft was removed from the appendix, and the sentence in the Introduction that mentioned the correction was dropped. The audit of the earlier draft is kept only in the replication repository.}
+
+\com{2.2 Temporal and structural disconnection (2006 vs.\ 2020).}
+\rep{\emph{(i) Anchor for $r_0$.} I agree that the ratio is not a structural estimate for a mobile asset, and the manuscript now says so. The primary source for 2006 (the issuer's press release, now cited) confirms that COLTEL was a fixed-line operator and that Telef\'onica, which already held mobile assets, presented the purchase as a way to extend into fixed and convergent services. Section~6 (new paragraph ``The retention value $r_0$'') explains that the ratio is used only for what it measures: the distance between a reserve set from independent valuations (Citigroup, McKinsey) and the price that competition among strategic buyers delivers. The relevant common feature is that bidders in both episodes are downstream incumbents whose willingness to pay exceeds the State's stand-alone value. The conclusions do not depend on the anchor: over $r_0/\bar p\in[0.3,0.8]$ the optimal handicap moves only between 0.44 and 0.47 and the welfare gain of the preference between US\$306 and US\$362 million (Table~5, now quoted in the text).
+
+\emph{(ii) Section 6.} Moved to Section~8.3 as an extension, as suggested, with an opening sentence stating that the main model concerns market dominance and that the informational problem is treated separately as a benchmark. Section~3 and the Introduction were adjusted so that 2006 is presented as an asymmetric ascending auction between a downstream incumbent and an outsider, and the roadmap in the Introduction announces the extension.}
+
+\com{2.3 Microfoundation of the downstream model.}
+\rep{A new paragraph in Section~4.1 (``Why capacity-constrained Cournot'') argues that spectrum and network capacity are precommitted, long-lived investments, so that quantity competition is the natural reduced form (Kreps and Scheinkman, 1983); that rigid limits capture spectrum congestion; that the incumbent with slack is the residual monopolist and the margin-setter ($q_D=P$); and that this reproduces the Cowling and Waterson (1976) relation $\varepsilon=s_D/\mu$ used in Section~6. The paragraph also states that price-setting models with capacity limits (Bertrand--Edgeworth; Deneckere and Kovenock, 1992, added to the references) may give different margins, and lists this as the main caveat of the downstream stage in Section~8.4. I made explicit that the results use only that extra capacity for a constrained rival lowers the margin whereas it is worthless to the incumbent with slack (Lemma~1).}
+
+\com{2.4 Single challenger versus several constrained operators.}
+\rep{I agree that this implication has to be discussed, and I added Section~8.2 and a sentence in Section~4.2 (after Assumption~2) pointing to it. Using the calibrated model with the three operators, Table~7 reports each bidder's gain from winning rather than losing to each possible rival (Jehiel and Moldovanu, 2000). Movistar would pay US\$561 million to win rather than let Claro win but US\$774 million to win rather than let Tigo win (for Tigo: US\$611 and US\$774 million); Claro's premium is US\$818 million against either.
+
+On the interpretation I propose a refinement of the free-riding argument. In profit terms a constrained challenger is hurt, not helped, when the other challenger expands, because it sells its fixed capacity at a lower margin (it prefers a victory by Claro to a victory by its rival, which the table makes visible and a new unit test checks). The collective-action problem is therefore one of \emph{mutual denial} rather than free-riding on a shared benefit, and neither challenger internalises the consumer-surplus and concentration gains that the planner obtains whenever any challenger wins. The section states three implications: (i) a challenger's willingness to pay is no longer a single number and the dominant-strategy reduction (Lemma~2) does not extend to three bidders; (ii) challengers have no common interest in blocking the dominant firm; (iii) the net effect on the incumbent's winning probability in a standard auction is ambiguous, but a handicap on the incumbent's bid does not require coordination among challengers. I state that solving the three-bidder game is left to future research and have listed it among the limitations and the extensions in the Conclusion.}
+
+\section*{Minor comments}
+
+\com{1. Compilation error (``Assumption efass:sale'').}
+\rep{Fixed. The cross-reference contained a stray control character in place of the backslash; the reference now reads ``Assumption 2''. I scanned the sources for similar problems and the build reports no undefined references or citations.}
+
+\com{2. Numerical discrepancy between the abstract/Section~8.2 and Table~6 (and between Tables~5 and~6).}
+\rep{The referee's diagnosis was correct: the sensitivity analysis chose $\beta^*$ and evaluated outcomes on $N=100{,}000$ draws, whereas the main experiment chooses $\beta^*$ on $200{,}000$ draws and evaluates on $N=10{,}000$ evaluation draws. I harmonised the two: the sensitivity analysis now selects $\beta^*$ on the same $200{,}000$ draws and evaluates on the same $10{,}000$ evaluation draws, so the baseline row of the sensitivity table coincides exactly with the main table (net proceeds 109, welfare gain 359, $\beta^*=0.44$), and the $\kappa=0$ row gives $\beta^*=0.77$ and a gain of US\$45 million, as in the abstract. The protocol is described in Section~6 and in the table note. All numbers quoted in the text are now generated from the code, so the text cannot differ from the tables. The numbers quoted in the sensitivity discussion are generated in the same way.}
+
+\com{3. Contextual update of the Colombian market.}
+\rep{A footnote in Section~3 states that the calibration deliberately uses the 2020 snapshot as a clean laboratory and lists the later developments: WOM's entry in 2021; the December 2023 5G auction, in which Movistar and Tigo bid jointly through a temporary union for network sharing; and Millicom's (Tigo) purchase of Telef\'onica's controlling stake in COLTEL/Movistar Colombia, agreed in 2025 with the tender concluding in early 2026. These are cited to a trade-press report and the acquirer's press release, as I could not locate official documents for them; I would be glad to substitute official sources if the editor prefers.}
+
+\com{4. Press sources in the bibliography.}
+\rep{I replaced the press source for the auction result with the issuer's official press release (Telef\'onica, 7 April 2006), which gives the price (COP 853,577 million, about US\$368 million), the share acquired and the characterisation of COLTEL as a fixed-line operator, and I cite CONPES 3374 and Decree 1616 for the institutional background. I could not find an official publication of the minimum price (COP 533,577 million), the round structure of the auction or the 2005 memorandum with Telmex (the Comptroller's warning is documented only in press and academic commentary in the sources I could access). These three items are therefore kept as complementary historical sources, now with full citations (publisher, date, URL, access date). If the referee or editor can point me to the official documents of the Comptroller General or the Ministry, I will gladly cite them.}
+
+\bigskip\noindent Finally, the replication package has been updated accordingly (new three-bidder table and test; harmonised sensitivity protocol), and the full pipeline and 13 tests run without errors.
+
+
+\newpage
+\section*{Second round}
+
+I thank the referee for the second report. The two technical points and the minor details have been addressed as follows.
+
+\com{A. Support restriction in Proposition 4(c).}
+\rep{The referee is right. The frontier $w_D=w_E+\delta^*$ crosses the top edge of $E$'s support inside the rectangle if and only if $\theta\le(1-\alpha)k$; for larger $\theta$ it leaves through the edge $w_D=k$ and the region where $D$ wins is truncated, and for $\theta>(1+\alpha)k$ the dominant bidder never wins. I have reformulated Proposition~4(c): the allocation rule (additive credit $\delta^*$) is stated for every $\theta\ge0$, and the maximised welfare-weighted virtual surplus $V(\theta)$ is given in the three regimes ($V=\tfrac{k}{12}(3+\alpha^2+6t+3t^2)$ with $t=\theta/k$ when $\theta\le(1-\alpha)k$; a closed form, Eq.~(4) in the Appendix, when $(1-\alpha)k<\theta\le(1+\alpha)k$; and $V=\theta$, the set-aside, beyond). The revenue $\tfrac{3+\alpha^2}{12}k$ and the three-quarters result (part (d)) are explicitly stated for $\theta=0$. The statement now also says that the benchmark is a committed-sale auction (no reserve, virtual values may be negative; the monopoly reserves $k/2$ and $\alpha k/2$ are not imposed). The proof contains the integrals of each regime. I verified the three closed forms symbolically and by Monte Carlo at eight $(\alpha,\theta)$ pairs covering the regimes (new unit test).}
+
+\com{B. Multiplicative shocks and independence.}
+\rep{I added a paragraph (``Why independent private shocks'', Section~4.2) that separates the two shocks by object: $\xi_E$ scales the incremental profit of $E$'s own expansion (integration synergies, hurdle rate, captured demand), whereas $\xi_D$ scales the margin $D$ expects to lose if the challenger expands, which depends on $D$'s private information on its exposure (customers who would switch, contract and churn structure, cost of capital). The aggregate state of demand and capacities are public in this market and are already in $m_i$. I also acknowledge that private news on aggregate demand would induce positive correlation. Because values remain private, Lemma~2 holds for any joint distribution; the Myerson benchmark, which assumes independent types, does not (Cr\'emer and McLean, 1988, now cited), so it is not reported when shocks are correlated. I therefore added a sensitivity panel (Table~5) with correlation $0,0.25,0.5,0.75$. The results do not leave the conclusions unchanged, and I report this: positive correlation \emph{strengthens} the case for a preference. At a correlation of 0.75 the challenger wins only 3\% of standard auctions, the optimal handicap is milder ($\beta^*=0.54$) and the welfare gain of the preference rises from US\$359 to US\$480 million. The correlation is also mentioned in the limitations.}
+
+\section*{Minor details}
+\begin{itemize}
+\item \textbf{Razón Pública.} The author is now identified (Libardo Espitia, 4 September 2017). I did not find the 2005 report of the Comptroller General on the memorandum with Telmex in any official publication I could access, so the article is kept as a complementary source with a complete citation; I will gladly replace it if the editor can point me to the official document.
+\item \textbf{Declarations.} The placeholders are replaced by the actual statements, and the data-and-code statement now gives the repository address, \url{https://github.com/hhernandezl-eco/Auctions-and-Privatization} (a DOI will be obtained from Zenodo upon acceptance).
+\item \textbf{Table typography.} In the source of Table~5 the rows are $\lambda=3$ $(\kappa=0.25)$ and $\lambda=0.3$ $(\kappa=0.77)$ with balanced parentheses; I could not reproduce the compilation errors reported, which may come from the viewer used. To be safe I protected the equal signs with braces so they render correctly in any viewer. In Table~6, S1 now shows $\beta=1.00$ (it previously showed a dash because the multiplicative handicap did not apply).
+\end{itemize}
+
+\end{document}

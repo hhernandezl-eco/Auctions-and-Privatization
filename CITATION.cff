@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper and this repository."
+title: "Privatising under dominance: bid preferences in telecommunications auctions with downstream competition (replication package)"
+authors:
+  - family-names: "Hernández Lasso"
+    given-names: "Hernando"
+    email: "hernandezlassohernando@gmail.com"
+version: "1.0.0"
+date-released: "2026-10-28"
+license: MIT
+repository-code: "https://github.com/hhernandezl-eco/Auctions-and-Privatization"
+keywords: [auctions, privatisation, bid preferences, market dominance, telecommunications, Colombia]

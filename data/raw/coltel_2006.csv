@@ -1,0 +1,9 @@
+item,value,unit,source_note
+reserve_price_(precio_minimo),533577,COP million,"Razon Publica 'Otra capitalizacion para Telefonica'; Infobae 2006-04-08 (valuations by Citigroup Markets and McKinsey; set by shareholders' assembly 2006-03-31)"
+winning_bid,853577,COP million,"Infobae 2006-04-08; Razon Publica"
+winning_bid_usd,368,USD million,"Infobae 2006-04-08 (about 2313 COP/USD implied)"
+reserve_price_usd,230.68,USD million,"Infobae 2006-04-08"
+telmex_2005_mou_investment,350,USD million,"Razon Publica (MOU Aug-2005: ~90 in Telmex shares, rest cash); suspended 2005-08-31"
+telefonica_bid_above_telmex_proposal,54000,COP million,"Infobae 2006-04-08"
+bidders,Telefonica (TISA); CANTV,,"Infobae 2006-04-08; Razon Publica"
+format,ascending multi-round with minimum price,,"Infobae 2006-04-08 (final rounds: Telefonica +80 bn COP vs CANTV +40 bn COP; CANTV did not counter in round 5)"

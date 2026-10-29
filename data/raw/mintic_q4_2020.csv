@@ -1,0 +1,24 @@
+segment,operator,value,unit,source_note
+mobile_lines,Claro,33.0,million lines,MinTIC Boletin Trimestral TIC 4T-2020 (Apr 2021) Grafico 63
+mobile_lines,Movistar,16.3,million lines,MinTIC Boletin Trimestral TIC 4T-2020 Grafico 63
+mobile_lines,Tigo,12.5,million lines,MinTIC Boletin Trimestral TIC 4T-2020 Grafico 63
+mobile_lines,Virgin,2.8,million lines,MinTIC Boletin Trimestral TIC 4T-2020 Grafico 63
+mobile_lines,TOTAL,67.7,million lines,"MinTIC 4T-2020 Grafico 58 (prepago 53.1 + pospago 14.6)"
+mobile_internet_accesses,Claro,18.1,million accesses,MinTIC 4T-2020 Grafico 21
+mobile_internet_accesses,Movistar,7.6,million accesses,MinTIC 4T-2020 Grafico 21
+mobile_internet_accesses,Tigo,4.8,million accesses,MinTIC 4T-2020 Grafico 21
+mobile_internet_accesses,Avantel,0.7,million accesses,MinTIC 4T-2020 Grafico 21
+mobile_internet_accesses,TOTAL,32.56,million accesses,"MinTIC 4T-2020 Graficos 25 and 35 (on-demand 19.0 + subscription 13.56)"
+mobile_voice_revenue,Claro,369.2,COP billion (quarter),MinTIC 4T-2020 Grafico 64
+mobile_voice_revenue,Movistar,159.6,COP billion (quarter),MinTIC 4T-2020 Grafico 64
+mobile_voice_revenue,Tigo,120.8,COP billion (quarter),MinTIC 4T-2020 Grafico 64
+mobile_voice_revenue,Avantel,16.8,COP billion (quarter),MinTIC 4T-2020 Grafico 64
+mobile_data_revenue,Claro,1201.0,COP billion (quarter),MinTIC 4T-2020 Grafico 22
+mobile_data_revenue,Movistar,366.0,COP billion (quarter),MinTIC 4T-2020 Grafico 22
+mobile_data_revenue,Tigo,274.0,COP billion (quarter),MinTIC 4T-2020 Grafico 22
+mobile_data_revenue,Avantel,43.0,COP billion (quarter),MinTIC 4T-2020 Grafico 22
+fixed_internet_accesses,Claro (Comcel),3.07,million accesses,MinTIC 4T-2020 Grafico 6
+fixed_internet_accesses,UNE-EPM,1.62,million accesses,MinTIC 4T-2020 Grafico 6
+fixed_internet_accesses,Movistar,1.16,million accesses,MinTIC 4T-2020 Grafico 6
+fixed_internet_accesses,ETB,0.69,million accesses,MinTIC 4T-2020 Grafico 6
+fixed_internet_accesses,TOTAL,7.77,million accesses,MinTIC 4T-2020 Grafico 1

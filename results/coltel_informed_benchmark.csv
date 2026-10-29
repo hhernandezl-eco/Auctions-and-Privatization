@@ -1,0 +1,6 @@
+Item,COP million,USD million
+"Reserve (State valuation, $X$)",533577.0,230.68612191958496
+Realised price ($R_{FP}$),853577.0,369.0345871162992
+Implied dispersion $s=3(R-X)$,960000.0,415.0453955901427
+Insider rent $s/6$,160000.0,69.17423259835711
+Counterfactual price under disclosure $X+s/2$,1013577.0,438.2088197146563
