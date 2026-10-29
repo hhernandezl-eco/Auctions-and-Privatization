@@ -14,3 +14,7 @@ paper/*.out
 paper/*.synctex.gz
 # original scanned draft (kept outside the repo; see README)
 SSRN-id3951613.pdf
+# local-only material (not part of the public repository)
+paper/
+docs/
+Makefile
