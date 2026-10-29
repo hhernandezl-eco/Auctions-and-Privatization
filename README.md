@@ -1,15 +1,13 @@
 # Privatising under dominance: bid preferences in telecommunications auctions with downstream competition
 
-Replication package for the paper. It reproduces **every number, table and figure** from raw public data.
-
-> Supersedes *Privatización de empresas del sector telecomunicaciones en Colombia 2006-2020* (Documentos FCE-CID N.° 122, SSRN 3951613).
+Replication package for the paper. It reproduces every number, table and figure from raw public data.
 
 ## What the paper does
 
-1. A **downstream capacity-constrained Cournot** model in which dominance is capacity slack; the dominant firm's willingness to pay is pure *preemption* (Prop. 1).
-2. The **welfare-weighted Myerson mechanism** for general valuation distributions (Prop. 2), **handicap auctions** (Prop. 3), and **closed forms** for the uniform case (Prop. 4: a multiplicative preference recovers exactly 3/4 of the optimal gain).
-3. Extensions: **two challengers** (pairwise premia, Jehiel & Moldovanu 2000) and a benchmark for **informational advantage** (Engelbrecht-Wiggans, Milgrom & Weber 1983; Prop. 5).
-4. **Calibration** to MinTIC 4Q-2020 data and a **Monte Carlo of 10,000 auctions** under three counterfactuals: standard auction, optimal bid preference, set-aside of the dominant firm (+ Myerson benchmark), with sensitivity analysis.
+1. A downstream capacity-constrained Cournot model in which dominance is capacity slack; the dominant firm's willingness to pay is pure *preemption* (Prop. 1).
+2. The welfare-weighted Myerson mechanism for general valuation distributions (Prop. 2), handicap auctions (Prop. 3), and closed forms for the uniform case (Prop. 4: a multiplicative preference recovers exactly 3/4 of the optimal gain).
+3. Extensions: two challengers (pairwise premia, Jehiel & Moldovanu 2000) and a benchmark for informational advantage (Engelbrecht-Wiggans, Milgrom & Weber 1983; Prop. 5).
+4. Calibration to MinTIC 4Q-2020 data and a Monte Carlo of 10,000 auctions under three counterfactuals: standard auction, optimal bid preference, set-aside of the dominant firm (+ Myerson benchmark), with sensitivity analysis.
 
 ## Repository layout
 
@@ -45,7 +43,3 @@ python scripts/run_all.py                               # full run, ~10 min; --q
 ## Assumptions to be aware of
 
 `σ` (dispersion of private values) is not identified by market data; margin `μ`, asset size `ΔK`, horizon and discount rate are assumptions. All are varied in the sensitivity analysis (Table 5 of the paper).
-
-## Citation and licence
-
-See `CITATION.cff`. Code: MIT. Text and figures: CC BY 4.0 (author to confirm).
